@@ -1,0 +1,648 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    border: 1px solid black;
+    width: 100%;
+    height: 170vh;
+}
+
+.div1 {
+
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+#GoMeal {
+
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(46, 46, 46, 1);
+
+
+}
+
+.Dasboard {
+    background-color: rgba(248, 182, 2, 1);
+    border-radius: 16px;
+    height: 40px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.navigator {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+}
+
+.square {
+    width: 90%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 16px;
+    position: relative;
+    background: linear-gradient(rgba(248, 182, 2, 1), rgba(240, 200, 104, 1), rgba(240, 200, 104, 0));
+}
+
+h3 {
+    width: 160px;
+    height: auto;
+    font-weight: 700;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.square button {
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+    color: rgba(46, 46, 46, 1);
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-right: 70px;
+    margin-bottom: 20px;
+
+
+}
+
+.img1 {
+    width: 22px;
+    height: 25px;
+    position: absolute;
+    right: 8px;
+    top: 15px;
+}
+
+.img2 {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+
+}
+
+i {
+    width: 25px;
+    height: 25px;
+}
+
+.p1 {
+    font-size: 18px;
+    width: 101px;
+    height: 25px;
+}
+
+.div2 {
+    width: 100%;
+    height: 170vh;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(245, 245, 220, 0.982);
+
+}
+
+.h1-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 80px;
+
+
+}
+
+.i1 {
+    height: 25px;
+    font-size: 18px;
+    color: rgba(248, 182, 2, 1);
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+
+}
+
+input {
+    border: none;
+    outline: hidden;
+    width: 270px;
+    height: 25px;
+}
+
+.hero {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(248, 182, 2, 1);
+    border-radius: 16px;
+    position: relative;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 170px;
+
+
+}
+
+.text h1 {
+    width: 340px;
+    height: 90px;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.text p {
+    width: 340px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.image img {
+    width: 250px;
+    height: 200px;
+}
+
+#ellips-1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+#ellips-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: rgba(255, 255, 255, 1);
+    width: 100px;
+    height: 100px;
+
+}
+
+#ellips-3 {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    width: 200px;
+    height: 100px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 40%;
+}
+
+.menyu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+
+
+}
+
+.category {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category p {
+    color: rgba(248, 182, 2, 1);
+}
+
+.section-1 {
+    width: 90%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 16px;
+    width: 100px;
+    height: 110px;
+    gap: 10px;
+}
+
+section {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+
+}
+
+.populyar {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    height: 50px;
+}
+
+.populyar p {
+    color: rgba(248, 182, 2, 1);
+}
+
+.section-2 {
+    width: 230px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    position: relative;
+}
+
+.section-2 #heart {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: rgba(235, 87, 87, 1);
+}
+
+.section-2 #endirim {
+    position: absolute;
+    left: 0;
+    top: 15px;
+    background-color: rgba(235, 87, 87, 1);
+}
+
+.burger-image img {
+    width: 200px;
+    height: 130px;
+}
+
+.parent {
+    width: 160px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.number-btn {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 25px;
+    width: 230px;
+    height: 50px;
+}
+
+.number-btn button {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(248, 182, 2, 1);
+}
+
+.text-number {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+
+}
+
+.star {
+    color: rgba(248, 182, 2, 1);
+}
+
+.pizza {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.pizza-1 {
+    width: 335px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+}
+
+#pizza-img {
+    width: 150px;
+    height: 130px;
+}
+
+.pizza-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#dollar {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#dollar i {
+    color: rgba(248, 182, 2, 1);
+    ;
+}
+
+#dotted {
+    font-weight: 400;
+    color: rgba(160, 152, 174, 1);
+}
+
+.div3 {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.icon-logo {
+    width: 200px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon i {
+    font-size: 25px;
+
+}
+
+.logo {
+    width: 20px;
+    font-size: 15px;
+    border-radius: 16px;
+}
+
+.text-cart {
+    width: 90%;
+    height: auto;
+    /* position: relative;
+    z-index: 2; */
+}
+.text-cart #img-1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70px;
+    height: 80px;
+ z-index: 1;
+    color: rgba(235, 87, 87, 1);
+     border-radius: 10px;
+}
+.text-cart #img-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    width: 120px;
+    color: rgba(166, 196, 74, 1);
+    border-radius: 10px;
+ 
+}
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(248, 182, 2, 1);
+   position: relative;
+   border-radius: 12px;
+    
+}
+
+.Balance {
+    width: 100px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 87;
+}
+
+.Balance h2 {
+    font-size: 20px;
+
+
+}
+
+.top-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.top-left .rotate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+      border-radius: 16px;
+      width: 50px;
+      height: 50px;
+}
+.top-left .rotate p{
+    font-size: 12px;
+}
+.rotate img {
+    width: 25px;
+    height: 25px;
+}
+
+.text-cart h1 {
+    font-size: 24px;
+
+}
+.address{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+.logation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 150px;
+}
+.logation h3{
+    font-size: 15px;
+    color: rgba(46, 46, 46, 1);
+    font-weight: 700;
+}
+.logation-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+
+}
+.logation-btn #change-button{
+    width: 80px;
+    height: 25px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid rgba(248, 182, 2, 1);
+   color: rgba(248, 182, 2, 1);
+}
+.butn{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+   
+}
+.p5{
+    font-size: 14px;
+}
+.butn button{
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    border: none;
+}
+.menyu-number #p-6{
+    font-weight: 700;
+    font-size: 20px;
+    width: 90%;
+    height: auto;
+}
+.Pepperoni{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 100px;
+    gap: 10px;
+}
+.p-xl-1{
+   width: 100% ;
+    display: flex;
+    flex-direction: column;
+}
+.p-xl-1 h4{
+    font-size: 12px;
+    width: 80px;
+}
+.xett{
+    padding-top: 30px;
+    width: 90%;
+}
+span{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(219, 219, 219, 1);
+}
+.Service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+}
+.Service p{
+    color: rgba(160, 152, 174, 1);
+}
+.Service h5{
+    font-size: 18px;
+}
